@@ -1,0 +1,17 @@
+{
+  "name": "assignment2-restapi-lakshyadabral",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.7",
+    "hono": "^4.6.19",
+    "joi": "^17.13.3",
+    "mongodb": "^6.12.0"
+  }
+}
