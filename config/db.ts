@@ -1,6 +1,7 @@
 import { MongoClient } from 'mongodb';
 
-const MONGO_URI = 'mongodb+srv://lakshyadabral24554:Vegito@cluster0.zprtv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'; 
+
+const MONGO_URI = process.env.MONGO_URI || "mongodb://localhost:27017";
 const client = new MongoClient(MONGO_URI);
 
 try {
