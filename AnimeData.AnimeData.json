@@ -1,0 +1,190 @@
+[{
+  "_id": {
+    "$oid": "678585b2c7c03dd19cf40546"
+  },
+  "anime_name": "Naruto",
+  "protagonist": "Naruto Uzumaki",
+  "antagonist": "Sasuke Uchiha",
+  "imdb_rating": 8.3,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "details": {
+    "episodes": 220,
+    "release_year": 2002,
+    "studio": "Pierrot"
+  }
+},
+{
+  "_id": {
+    "$oid": "678585b2c7c03dd19cf40547"
+  },
+  "anime_name": "Attack on Titan",
+  "protagonist": "Eren Yeager",
+  "antagonist": "Reiner Braun",
+  "imdb_rating": 9.1,
+  "genres": [
+    "Action",
+    "Drama",
+    "Fantasy"
+  ],
+  "details": {
+    "episodes": 87,
+    "release_year": 2013,
+    "studio": "Wit Studio"
+  }
+},
+{
+  "_id": {
+    "$oid": "678585b2c7c03dd19cf40548"
+  },
+  "anime_name": "Death Note",
+  "protagonist": "Light Yagami",
+  "antagonist": "L",
+  "imdb_rating": 9,
+  "genres": [
+    "Mystery",
+    "Psychological",
+    "Supernatural"
+  ],
+  "details": {
+    "episodes": 37,
+    "release_year": 2006,
+    "studio": "Madhouse"
+  }
+},
+{
+  "_id": {
+    "$oid": "678585b2c7c03dd19cf40549"
+  },
+  "anime_name": "One Piece",
+  "protagonist": "Monkey D. Luffy",
+  "antagonist": "Blackbeard",
+  "imdb_rating": 8.8,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Comedy"
+  ],
+  "details": {
+    "episodes": 1000,
+    "release_year": 1999,
+    "studio": "Toei Animation"
+  }
+},
+{
+  "_id": {
+    "$oid": "678585b2c7c03dd19cf4054a"
+  },
+  "anime_name": "My Hero Academia",
+  "protagonist": "Izuku Midoriya",
+  "antagonist": "Tomura Shigaraki",
+  "imdb_rating": 8.5,
+  "genres": [
+    "Action",
+    "Comedy",
+    "Superhero"
+  ],
+  "details": {
+    "episodes": 138,
+    "release_year": 2016,
+    "studio": "Bones"
+  }
+},
+{
+  "_id": {
+    "$oid": "678585b2c7c03dd19cf4054b"
+  },
+  "anime_name": "Demon Slayer",
+  "protagonist": "Tanjiro Kamado",
+  "antagonist": "Muzan Kibutsuji",
+  "imdb_rating": 8.7,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "details": {
+    "episodes": 44,
+    "release_year": 2019,
+    "studio": "Ufotable"
+  }
+},
+{
+  "_id": {
+    "$oid": "678585b2c7c03dd19cf4054c"
+  },
+  "anime_name": "Fullmetal Alchemist: Brotherhood",
+  "protagonist": "Edward Elric",
+  "antagonist": "Father",
+  "imdb_rating": 9.1,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "details": {
+    "episodes": 64,
+    "release_year": 2009,
+    "studio": "Bones"
+  }
+},
+{
+  "_id": {
+    "$oid": "678585b2c7c03dd19cf4054d"
+  },
+  "anime_name": "Dragon Ball Z",
+  "protagonist": "Goku",
+  "antagonist": "Frieza",
+  "imdb_rating": 8.7,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Martial Arts"
+  ],
+  "details": {
+    "episodes": 291,
+    "release_year": 1989,
+    "studio": "Toei Animation"
+  }
+},
+{
+  "_id": {
+    "$oid": "678585b2c7c03dd19cf4054e"
+  },
+  "anime_name": "Jujutsu Kaisen",
+  "protagonist": "Yuji Itadori",
+  "antagonist": "Sukuna",
+  "imdb_rating": 8.6,
+  "genres": [
+    "Action",
+    "Dark Fantasy",
+    "Supernatural"
+  ],
+  "details": {
+    "episodes": 24,
+    "release_year": 2020,
+    "studio": "MAPPA"
+  }
+},
+{
+  "_id": {
+    "$oid": "678585b2c7c03dd19cf4054f"
+  },
+  "anime_name": "Tokyo Ghoul",
+  "protagonist": "Kaneki Ken",
+  "antagonist": "Aogiri Tree",
+  "imdb_rating": 7.9,
+  "genres": [
+    "Action",
+    "Horror",
+    "Supernatural"
+  ],
+  "details": {
+    "episodes": 48,
+    "release_year": 2014,
+    "studio": "Pierrot"
+  }
+}]
