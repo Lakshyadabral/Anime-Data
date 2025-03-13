@@ -49,7 +49,7 @@ animeRoutes.post('/', validateRequest(animeSchema), async (c: Context & { valida
 
 
 // Update an anime
-animeRoutes.put('/:id', validateRequest(animeSchema), async (c: Context & { validatedBody?: any }) => {
+animeRoutes.patch('/:id', validateRequest(animeSchema), async (c: Context & { validatedBody?: any }) => {
   try {
     const id = c.req.param('id'); // Get the anime ID from the URL
     const validatedBody = c.validatedBody;
