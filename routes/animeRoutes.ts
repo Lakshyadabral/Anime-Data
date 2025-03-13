@@ -49,20 +49,19 @@ animeRoutes.post('/', validateRequest(animeSchema), async (c: Context & { valida
 
 
 // Update an anime
-animeRoutes.patch('/:id', validateRequest(animeSchema), async (c: Context & { validatedBody?: any }) => {
+animeRoutes.patch("/:id", validateRequest(animeSchema), async (c: Context & { validatedBody?: any }) => {
   try {
-    const id = c.req.param('id'); // Get the anime ID from the URL
+    const id = c.req.param("id");
     const validatedBody = c.validatedBody;
+    const updatedAnime = await updateAnime(id, validatedBody);
 
-    const success = await updateAnime(id, validatedBody);
-
-    if (!success) {
-      return c.json({ error: 'Anime not found' }, 404); // If no document is updated
+    if (!updatedAnime) {
+      return c.json({ error: "Anime not found" }, 404);
     }
 
-    return c.json({ message: 'Anime updated successfully' }); // Success response
+    return c.json(updatedAnime); 
   } catch (error) {
-    return c.json({ error: 'Failed to update anime' }, 500); // Server error
+    return c.json({ error: "Failed to update anime" }, 500);
   }
 });
 

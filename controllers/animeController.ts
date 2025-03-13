@@ -36,16 +36,14 @@ export const updateAnime = async (id: string, anime: any) => {
     throw new Error('Invalid ID format');
   }
 
-  const result = await animeCollection.updateOne(
+  const result = await animeCollection.findOneAndUpdate(
     { _id: new ObjectId(id) }, 
-    { $set: anime } 
+    { $set: anime },
+    { returnDocument: "after" }
+    
   );
 
-  if (result.modifiedCount === 0) {
-    throw new Error('Anime not found or no changes made');
-  }
-
-  return true;
+  return result;
 };
 
 
